@@ -1,0 +1,198 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What's this website about?",
+        "Tell me about this website?"
+      ],
+      "responses": [
+        "It is a website based on different machine learning models",
+        "Different Machine learning models are implemented in it"
+      ]
+    },
+    {
+      "tag": "Models",
+      "patterns": [
+        "What models are used?",
+        "What kinds of machine learning models are there?",
+        "What machine learning models are used?"
+      ],
+      "responses": [
+        "We used CNN for mask detection, SEQ2SEQ model for chatbot and Image Processing Model in out Text to image Converter"
+      ]
+    },
+    {
+      "tag": "machinelearning",
+      "patterns": [
+        "what is machine learning?",
+        "briefly describe machine learning.",
+        "explain the basic idea of machine learning."
+      ],
+      "responses": [
+        "Machine Learning (ML) is the science of automating a task using some autonomous bots created by several programming languages",
+        "Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence."
+      ]
+    },
+    {
+      "tag": "project",
+      "patterns": [
+        "what does your project have?",
+        "what are you making for this project"
+      ],
+      "responses": [
+        "We have a facemask detector with AI chatbot adding to this we have Image-to-text converter",
+        "our project covers three main ML and ReactJS based applications -The Facemask Detector -AI ChatBot -Image-to-text Converter"
+      ]
+    },
+    {
+      "tag": "Facemask_Detector",
+      "patterns": [
+        "What are the different languages used for the facemask Detector",
+        "What are the different platforms used in the Facemask detector"
+      ],
+      "responses": [
+        "We are using python, TensorFlow, OpenCV, Keras, and Transfer Learning",
+        "For Facemask Detector we have Python, TensorFlow, OpenCV, Keras, and Transfer Learning"
+      ]
+    },
+    {
+      "tag": "AIchatbot",
+      "patterns": [
+        "What are the different languages used for the AI chatbot",
+        "What are the different platforms used in the AI chatbot"
+      ],
+      "responses": [
+        "We are using python, TensorFlow and Kesar",
+        "For AI chatbot we have Python, TensorFlow and Kesar"
+      ]
+    },
+    {
+      "tag": "Image-to-TextConverter ",
+      "patterns": [
+        "What are the different languages used for the Image-to-Text Converter",
+        "What are the different platforms used in the Image-to text Converter "
+      ],
+      "responses": [
+        "We are using OpenCV, TensorFlow and Kesar",
+        "For AI chatbot we have OpenCV, TensorFlow, and Kesar"
+      ]
+    },
+    {
+      "tag": "Common1",
+      "patterns": [
+        "What are the applications using Python",
+        "what are the two applications using Python"
+      ],
+      "responses": [
+        "The Facemask Detector and AI chatbot are using python"
+      ]
+    },
+    {
+      "tag": "Common2",
+      "patterns": [
+        "What are the applications using Kesar",
+        "What are the applications using TensorFlow",
+        " What are the applications using Kesar and TensorFlow",
+        " What are the applications using both Kesar and TensorFlow"
+      ],
+      "responses": [
+        "All three applications i.e. Facemask Detector, AI chatbot, and Image-to text Converter are using both Kesar and TensorFlow"
+      ]
+    },
+    {
+      "tag": "Common3",
+      "patterns": [
+        "what are the application using OpenCV"
+      ],
+      "responses": [
+        "Both  FaceMask detector and Image-to-Text converter are using openCV"
+      ]
+    },
+    {
+      "tag": "Frontend",
+      "patterns": [
+        "How Machine learning models are deployed?",
+        "What frameworks are used in frontend?",
+        "Tell me About frontend of the website?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "React",
+      "patterns": [
+        "What is react?",
+        "What is ReactJS?"
+      ],
+      "responses": [
+        "React. js/React is an open-source front-end framework that is based on JavaScript, developed by Facebook, and best known for its virtual DOM feature"
+      ]
+    },
+    {
+      "tag": "DOM",
+      "patterns": [
+        "What is DOM feature?",
+        "What is DOM?",
+        "What is Document Object Model"
+      ],
+      "responses": [
+        "The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated."
+      ]
+    },
+    {
+      "tag": "Personalinformation",
+      "patterns": [
+        "Who created this website?",
+        "who is the creator of this website?"
+      ],
+      "responses": [
+        "This Website is created by Varun Sharma, Divyanshu Sharma, and Samay Gandotra. For more info click on about section"
+      ]
+    }
+  ]
+}
